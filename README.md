@@ -28,10 +28,7 @@ I used Ubuntu 18.04 for this project, lower version might not be capable.
 
 ## Usage
 
-run dataload.ipynb to generate pickle files
-run model.ipynb to generate the model (mymodel.keras)
-run eval.ipynb to see accuracy score and obtain the confusion matrix
-if you run label.ipynb, make sure to download the fma_large data (90+GB)
-
-## notice 
-Right now there is not enough seperate test set yet, I am still crawling more.
+- run dataload.ipynb to generate pickle files
+- run model.ipynb to generate the model (mymodel.keras)
+- run eval.ipynb to see accuracy score and obtain the confusion matrix
+- if you run label.ipynb, make sure to download the fma_large data (90+GB)
