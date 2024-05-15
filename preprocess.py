@@ -36,9 +36,9 @@ class DataSetAudio(data.Dataset):
     def __getitem__(self, idx):
         # % by len(s.dset) because it gives bug if not
         signal, sr = librosa.load(self.dset_path, sr = SAMPLE_RATE)
-        #choosing random part of the songs
-        gen = random.randrange(0,len(signal) - self.steps) 
-        mfcc = librosa.feature.mfcc(y = signal[gen: gen + self.steps],
+        # START PREDICT AT 5 SECOND OF THE SONG
+        start = SAMPLE_RATE*5
+        mfcc = librosa.feature.mfcc(y = signal[start : start + self.steps],
                                                     sr = sr,
                                                     n_fft = 2048,
                                                     n_mfcc = 40,
