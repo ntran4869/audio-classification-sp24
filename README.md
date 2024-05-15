@@ -9,7 +9,7 @@ Implement a deep learning model to classify music based on genre. Currently we h
 I do not recommend running through the label file since I have included a copy of the data in the repository. 
 
 ### Prerequisites
-I used Ubuntu 18.04 for this project, lower version might not be capable. 
+I used Ubuntu 18.04 and Python 3.9.19 for this project, lower version might not be capable. 
 
 ### Installation
 
@@ -32,3 +32,7 @@ I used Ubuntu 18.04 for this project, lower version might not be capable.
 - run model.ipynb to generate the model (mymodel.keras)
 - run eval.ipynb to see accuracy score and obtain the confusion matrix
 - if you run label.ipynb, make sure to download the fma_large data (90+GB)
+- run demo to test your own stuffs!
+
+## UPCOMING
+- Music Generation App
