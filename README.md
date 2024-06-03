@@ -19,7 +19,7 @@ I used Ubuntu 18.04 and Python 3.9.19 for this project, lower version might not 
    ```
 2. Set up conda environment
    ```sh
-   conda create -f environmeny.yml
+   conda create -f environment.yaml
    ```
 2. Or necessary library
    ```sh
